@@ -101,10 +101,6 @@ simulador-parabolico/
 
 > [Enlace al video del proyecto](#) — *(próximamente)*
 
-El video cubre:
-- Explicación del movimiento parabólico
-- Demostración del programa en funcionamiento
-- Comparación de trayectorias entre planetas
 
 ##  Distribución de Tareas
 
