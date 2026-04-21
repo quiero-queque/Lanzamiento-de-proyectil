@@ -97,7 +97,7 @@ simulador-parabolico/
 
 ---
 
-## 🎬 Video Explicativo
+##  Video Explicativo
 
 > [Enlace al video del proyecto](#) — *(próximamente)*
 
