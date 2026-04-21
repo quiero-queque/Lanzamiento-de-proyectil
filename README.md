@@ -76,27 +76,6 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 
 ---
 
-##  Estructura del Proyecto
-
-```
-
-simulador-parabolico/
-│
-├── README.md
-├── .gitignore
-│
-├── hito1/
-│   └── main.c                 ← Prototipo en C
-│
-├── hito2/
-│   └── cohete_parabolico.cpp  ← Migración a C++ con clases
-│
-└── hito3/
-    └── (en desarrollo)        ← Interfaz web
-```
-
----
-
 ##  Video Explicativo
 
 > [Enlace al video del proyecto](#) — *(próximamente)*
