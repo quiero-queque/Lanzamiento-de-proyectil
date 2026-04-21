@@ -34,15 +34,15 @@ Crear un juego con fines educativos programado en C, para visualizar y analizar 
 
 | Integrante | Rol | Responsabilidades |
 |-----------|-----|-------------------|
-| [Nombre 1] | Desarrollador principal | Lógica de física, funciones de cálculo, estructuras de datos |
-| [Nombre 2] | Desarrollador de interfaz | Menú interactivo, visualización ASCII, pantalla de bienvenida |
+| [Samuel Cament] | Desarrollador principal | Lógica de física, funciones de cálculo, estructuras de datos |
+| [Benjamin Vargas] | Desarrollador de interfaz | Menú interactivo, visualización ASCII, pantalla de bienvenida |
 
 ###  Gestión e Investigación
 
 | Integrante | Rol | Responsabilidades |
 |-----------|-----|-------------------|
-| [Nombre 3] | Gestor GitHub + Documentación | Manejo del repositorio, README, commits, control de versiones |
-| [Nombre 4] | Investigación + Video explicativo | Búsqueda de información física, guión y producción del video del proyecto |
+| [Cristobal Oyarzun] | Gestor GitHub + Documentación | Manejo del repositorio, README, commits, control de versiones |
+| [Francisco Condori] | Investigación + Video explicativo | Búsqueda de información física, guión y producción del video del proyecto |
 
 ---
 
