@@ -22,8 +22,8 @@ Crear un juego con fines educativos programado en C, para visualizar y analizar 
 
 | Hito | Tecnología | Estado | Descripción |
 |------|-----------|--------|-------------|
-| **Hito 1** | C |  Completado | Prototipo básico en consola con física, menú y exportación |
-| **Hito 2** | C++ + Gráficos |  En progreso | Reorganización en clases + visualización gráfica |
+| **Hito 1** | C |  En progreso | Prototipo básico en consola con física, menú y exportación |
+| **Hito 2** | C++ + Gráficos |  Pendiente | Reorganización en clases + visualización gráfica |
 | **Hito 3** | C++ + Interfaz |  Pendiente | Interfaz desacoplada de la lógica + página web |
 
 ---
