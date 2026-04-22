@@ -114,3 +114,4 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 - [ ] Subir el video y agregar el enlace al README
 
 ---
+## Avances Logrados 
