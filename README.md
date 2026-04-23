@@ -85,7 +85,7 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 
 ### [Samuel Cament] — Desarrollador principal
 - [ ] Implementar funciones de física (`calcular_alcance`, `calcular_altura_max`, etc.)
-- [ ] Diseñar las estructuras `Planeta` y `Resultado`
+- [x] Diseñar las estructuras `Planeta` y `Resultado`
 - [ ] Verificar que las fórmulas físicas sean correctas
 - [ ] Agregar función de comparación entre planetas
 - [ ] Migrar lógica de física al Hito 2 en C++
