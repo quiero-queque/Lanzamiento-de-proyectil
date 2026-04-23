@@ -1,4 +1,9 @@
 #  Simulador de Lanzamiento Parabólico
+---
+
+##  Problematica a Solucionar 
+
+Está demostrado que cada persona tiene una forma diferente de aprender diferentes tipos de temas, en este caso la fisica, unos prefieren la lectura, otros la práctica, otros los videos, etc. Por eso se diseñará e implementará un videojuego que con diferentes funcionalidades, se buscará que un usuario pueda aprender conceptos prácticos de física.
 
 
 ---
