@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
-const float PI= 3.141592653589793;
+const float PI= 3.1416;
 const float TIERRA= 9.81;
 const float VENUS= 8.87;
 const float MERCURIO= 3.70;
