@@ -35,7 +35,7 @@ Objetivos Específicos:
 "Luego está el módulo de cálculo físico, que aplica las ecuaciones del tiro parabólico usando la gravedad real de cada planeta. Calcula la trayectoria punto a punto, alcance y el tiempo de vuelo."
 "Después viene el módulo de visualización, que despliega los resultados numéricos y una representación gráfica de la trayectoria directamente en la consola."
 "Finalmente, el módulo de control del juego permite repetir simulaciones con distintos planetas o parámetros sin necesidad de reiniciar el programa."
-"Los planetas disponibles son ocho: Mercurio, Venus, Tierra, Luna, Marte, Júpiter, Saturno y Neptuno, cada uno con su gravedad real."
+"Los planetas disponibles son 9: Luna, Mercurio, Venus, Tierra, Luna, Marte, Júpiter, Saturno y Neptuno, cada uno con su gravedad real."
 
 
 4.Pruebas Basicas(1 min)
