@@ -97,16 +97,17 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 - [ ] Diseñar la tabla de posiciones formateada
 - [ ] Mejorar la interfaz visual en el Hito 2
 
-### [Cristobal Oyarzun] — Gestor GitHub + Documentación
+### [Francisco Condori] — Gestor GitHub + Documentación
 - [ ] Mantener el README actualizado en cada hito
 - [ ] Hacer commits organizados con mensajes descriptivos
 - [ ] Organizar las carpetas `hito1/`, `hito2/`, `hito3/`
 - [ ] Documentar los cambios entre versiones
 
-### [Francisco Condori] — Investigación 
+### [Cristobal Oyarzun] — Investigación 
 - [ ] Investigar las ecuaciones del movimiento parabólico
 - [ ] Buscar datos reales de gravedad de cada planeta
 - [ ] Redactar el marco teórico del proyecto
 - [ ] Subir el video y agregar el enlace al README
+- [ ] Apoyar con el GitHub
 
 ---
