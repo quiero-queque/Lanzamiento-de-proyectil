@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-#include <string.h>
 const float PI= 3.1416;
 const float TIERRA= 9.81;
 const float VENUS= 8.87;
@@ -16,4 +15,6 @@ float calcular_alcance(float velocidad, float angulo, float t);
 float calcular_altura(float velocidad, float angulo, float t, float g);
 float calcular_tiempo(float velocidad, float angulo, float g);
 float calcular_radianes(float Angulo);
+float calcular_alturamax(float velocidad, float angulo, float g);
 void iniciar_juego();
+float redondear(float valor);
