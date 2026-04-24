@@ -27,7 +27,7 @@ float calcular_alcancemax(float velocidad, float angulo, float g) {
     float alcancemax= (velocidad * velocidad * sin(2 * calcular_radianes(angulo))) / g;
     return redondear(alcancemax);
 }
-void juego(){
+void iniciar_juego(){
     float planeta[9]= {TIERRA, LUNA, MERCURIO, MARTE, URANO, VENUS, SATURNO, NEPTUNO, JUPITER};
     char *nombre[9]={"TIERRA", "LUNA", "MERCURIO", "MARTE", "URANO", "VENUS", "SATURNO", "NEPTUNO", "JUPITER"};
     for(int i = 1; i <= 9; i++){
