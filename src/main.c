@@ -1,5 +1,4 @@
 #include "funciones.h"
-//probar con la funcion  M_PI(los include son locales de cada archivo)
 int main(){
     char eleccion;
     do{
