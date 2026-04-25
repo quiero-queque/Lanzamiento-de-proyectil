@@ -92,6 +92,6 @@ Para el Hito 2 tenemos planificados los siguientes avances:
 "Mejorar la interfaz visual en el Hito 2"
 
 
-7.Cierre(10 seg)
+7.--Cierre(10 seg)--
 
 "Eso es todo por el Hito 1. Gracias por su atención. Somos el equipo Quiero queque, y seguimos trabajando para el siguiente hito."
