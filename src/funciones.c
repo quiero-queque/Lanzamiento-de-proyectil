@@ -13,26 +13,34 @@ float calcular_radianes(float angulo){
     float radianes= (angulo*PI)/180;
     return radianes;
 }
+//esta funcion permite cambiar los angulos a radianes
 float calcular_altura(float velocidad, float angulo, float t, float g){
     float altura= velocidad* t* sin(calcular_radianes(angulo))- (g*t*t)/2;
     return altura;
 }
+//esta funcion permite calcular la altura en un instante de tiempo
 float calcular_alturamax(float velocidad, float angulo, float g){
     float alturamax= (velocidad*velocidad)*(sin(calcular_radianes(angulo))*sin(calcular_radianes(angulo))/(2*g));
     return alturamax;
 }
+//esta funcion permite calcular la altura maxima agarrada por el proyectil
 float calcular_alcance(float velocidad, float angulo, float t){
     float alcance = velocidad*cos(calcular_radianes(angulo))*t;
     return alcance;
 }
+//esta funcion calcula la distancia horizontal en un instante de tiempo
 float calcular_tiempo(float velocidad, float angulo, float g){
     float tiempo= 2*velocidad*sin(calcular_radianes(angulo))/(g);
     return tiempo;
 }
+//esta funcion calcula el tiempo que tarda el proyectil en chocar con el suelo
 float calcular_alcancemax(float velocidad, float angulo, float g) {
     float alcancemax= (velocidad * velocidad * sin(2 * calcular_radianes(angulo))) / g;
     return alcancemax;
 }
+//esta funcion permite calcular la distancia horizontal cuando choca con el suelo, no depende del tiempo
+
+//esta funcion permite que el juego se ejecute, lo hacemos de esta forma para que el main quede mas limpio
 void iniciar_juego(){
     float planeta[9]= {TIERRA, LUNA, MERCURIO, MARTE, URANO, VENUS, SATURNO, NEPTUNO, JUPITER};
     char *nombre[9]={"TIERRA", "LUNA", "MERCURIO", "MARTE", "URANO", "VENUS", "SATURNO", "NEPTUNO", "JUPITER"};
