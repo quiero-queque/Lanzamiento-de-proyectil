@@ -89,8 +89,11 @@ Para el Hito 2 tenemos planificados los siguientes avances:
 
 "Migrar lógica de física al Hito 2 en C++"
 
-"Mejorar la interfaz visual en el Hito 2"
+"Mejorar la interfaz visual en el Hito 2, creando funciones que mejoren la experiencia visual del usuario y vea la trayectoria de el proyectil."
 
+"corregir unos bugs"
+
+"haremos un modo de lanzamiento libre"
 
 7.--Cierre(10 seg)--
 
