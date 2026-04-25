@@ -85,7 +85,13 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 
 > https://www.youtube.com/watch?v=alypqZLJVk4
 
+---
 
+## Compilacion
+- gcc -o simulador main.c funciones.c -lm
+- ./simulador
+
+---
 ##  Distribución de Tareas
 
 ### [Samuel Cament] — Desarrollador principal
