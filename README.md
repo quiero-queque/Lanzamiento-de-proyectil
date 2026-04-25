@@ -1,5 +1,5 @@
 #  Simulador de Lanzamiento Parabólico
-
+---
 
 ##  Problematica a Solucionar 
 
@@ -39,14 +39,14 @@ Crear un juego con fines educativos programado en C, para visualizar y analizar 
 
 | Integrante | Rol | Responsabilidades |
 |-----------|-----|-------------------|
-| [Samuel Cament] | Desarrollador principal | Lógica de física, funciones de cálculo |
-| [Benjamin Vargas] | Desarrollador de interfaz | Menú interactivo, visualización, pantalla de bienvenida |
+| [Samuel Cament] | Desarrollador principal | Lógica de física, funciones de cálculo, estructuras de datos |
+| [Benjamin Vargas] | Desarrollador de interfaz | Menú interactivo, visualización ASCII, pantalla de bienvenida |
 
 ###  Gestión e Investigación
 
 | Integrante | Rol | Responsabilidades |
 |-----------|-----|-------------------|
-| [Cristobal Oyarzun] | Gestor GitHub + Documentación | Manejo del repositorio, README, control de versiones |
+| [Cristobal Oyarzun] | Gestor GitHub + Documentación | Manejo del repositorio, README, commits, control de versiones |
 | [Francisco Condori] | Investigación + Video explicativo | Búsqueda de información física, guión y producción del video del proyecto |
 
 ---
@@ -88,31 +88,34 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 
 ##  Distribución de Tareas
 
-### Samuel Cament — Desarrollador principal
+### [Samuel Cament] — Desarrollador principal
 - [ ] Implementar funciones de física (`calcular_alcance`, `calcular_altura_max`, etc.)
-- [ ] Diseñar las estructuras `Planeta` y `Resultado`
-- [ ] Verificar que las fórmulas físicas sean correctas
+- [x] Diseñar las estructuras `Planeta` y `Resultado`
+- [x] Verificar que las fórmulas físicas sean correctas
 - [ ] Agregar función de comparación entre planetas
 - [ ] Migrar lógica de física al Hito 2 en C++
 
-### Benjamin Vargas — Desarrollador de interfaz
-- [ ] Implementar el menú interactivo con validación de entrada
-- [ ] Diseñar la pantalla de bienvenida con instrucciones
+### [Benjamin Vargas] — Desarrollador de interfaz
+- [x] Implementar el menú interactivo con validación de entrada
+- [x] Diseñar la pantalla de bienvenida con instrucciones
 - [ ] Crear el gráfico ASCII de la trayectoria
 - [ ] Diseñar la tabla de posiciones formateada
 - [ ] Mejorar la interfaz visual en el Hito 2
 
-### [Francisco Condori] — Gestor GitHub + Documentación
-- [ ] Mantener el README actualizado en cada hito
+### [Cristobal Oyarzun] — Gestor GitHub + Documentación
+- [x] Crear y configurar el repositorio en GitHub
+- [x] Mantener el README actualizado en cada hito
+- [x] Actualizar el `.gitignore` del proyecto
 - [ ] Hacer commits organizados con mensajes descriptivos
 - [ ] Organizar las carpetas `hito1/`, `hito2/`, `hito3/`
 - [ ] Documentar los cambios entre versiones
 
-### [Cristobal Oyarzun] — Investigación 
-- [ ] Investigar las ecuaciones del movimiento parabólico
-- [ ] Buscar datos reales de gravedad de cada planeta
-- [ ] Redactar el marco teórico del proyecto
+### [Francisco Condori] — Investigación + Video
+- [x] Investigar las ecuaciones del movimiento parabólico
+- [x] Buscar datos reales de gravedad de cada planeta
+- [x] Redactar el marco teórico del proyecto
+- [x] Escribir el guión del video explicativo
+- [ ] Grabar y editar el video demostrativo
 - [ ] Subir el video y agregar el enlace al README
-- [ ] Apoyar con el GitHub
 
 ---
