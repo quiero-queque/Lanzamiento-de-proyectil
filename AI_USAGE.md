@@ -11,5 +11,5 @@
 -La IA identificó rápidamente errores de sintaxis que habrían sido difíciles de encontrar manualmente, especialmente en el codigo funciones.c.
 
 **Limitaciones**
--En conversaciones puede obviar detalles importantes.
--Si se copia código sin entenderlo, no se puede defender ni modificar. El equipo DEBE entender el codigo.
+- En conversaciones puede obviar detalles importantes.
+- Si se copia código sin entenderlo, no se puede defender ni modificar. El equipo DEBE entender el codigo.
