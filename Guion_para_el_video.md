@@ -79,7 +79,7 @@ La distribución de las tareas fueron las siguientes:
 [Cristóbal Oyarzun]	se encargo de la Búsqueda de información física, guión y producción del video del proyecto.
 
 "Creamos issues para cada funcionalidad, por ejemplo: Mejorar la interfaz visual, Agregar función de compararación de planetas, 
-Diseño de tablas de posiciones, con el propasito de que cada issue fue asignado a un integrante responsable."
+Diseño de tablas de posiciones, con el proposito de que cada issue fue asignado a un integrante responsable."
 "Definimos un milestone llamado Hito 1 que agrupa todos los issues de esta etapa"
 "usamos el project board con columnas con el nombre de cada uno para hacer seguimiento del avance de cada uno."
 
