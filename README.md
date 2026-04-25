@@ -83,7 +83,7 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 
 ##  Video Explicativo
 
-> [Enlace al video del proyecto](#) — *(próximamente)*
+> https://www.youtube.com/watch?v=alypqZLJVk4
 
 
 ##  Distribución de Tareas
