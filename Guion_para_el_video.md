@@ -1,6 +1,6 @@
-Guion para el el video
+##Guion para el el video##
 
-1.Presentacion del equipo(30 seg)
+1.--Presentacion del equipo(30 seg)--
 
 Los integrantes se presentaran uno a uno diciendo su nombre y rol.
 
@@ -13,7 +13,7 @@ Los integrantes se presentaran uno a uno diciendo su nombre y rol.
 -Cristóbal Oyarzún(Investigación + Video explicativo)
 
 
-2.Problematica y Objetivos(1,5 min)
+2.--Problematica y Objetivos(1,5 min)--
 
 #Se debera presentar la presentar la problematica y los objetivos para dar a entender.
 
@@ -41,13 +41,13 @@ Objetivos Específicos:
 entendiendo cómo influye la gravedad.
 
 
-3.Diseño del programa(1 min)
+3.--Diseño del programa(1 min)--
 
 #Explicar como se reciben los datos en el programa y explicar sus funciones.
 
 "El programa está estructurado en módulos bien definidos."
 
-"Primero tenemos el módulo de entrada, donde el usuario selecciona el planeta y define el ángulo de lanzamiento entre 0 y 180 grados, y la velocidad inicial dada por el usuario."
+"Primero tenemos el módulo de entrada, donde el usuario empieza en el planeta del nivel 1 y define el ángulo de lanzamiento entre 0 y 180 grados, y la velocidad inicial dada por el usuario."
 
 "Luego está el módulo de cálculo físico, que aplica las ecuaciones del tiro parabólico usando la gravedad real de cada planeta.
 Calcula la trayectoria punto a punto, alcance y el tiempo de vuelo."
@@ -60,14 +60,14 @@ Calcula la trayectoria punto a punto, alcance y el tiempo de vuelo."
 
 
 
-4.Pruebas Basicas(1 min)
+4.--Pruebas Basicas(1 min)--
 
 #A continuación ejecutamos algunas pruebas para validar las funcionalidades.
 
 no se todavia espero al samuel rondon
 
 
-5.Organización en GitHub(1 min)
+5.--Organización en GitHub(1 min)--
 
 #La organización del trabajo la gestionamos completamente a través de GitHub.
 
@@ -83,11 +83,12 @@ Diseño de tablas de posiciones, con el proposito de que cada issue fue asignado
 "Definimos un milestone llamado Hito 1 que agrupa todos los issues de esta etapa"
 "usamos el project board con columnas con el nombre de cada uno para hacer seguimiento del avance de cada uno."
 
-6.Proximos pasos(20 seg)
+6.--Proximos pasos(20 seg)--
 
 Para el Hito 2 tenemos planificados los siguientes avances:
 
 "Migrar lógica de física al Hito 2 en C++"
+
 "Mejorar la interfaz visual en el Hito 2"
 
 
