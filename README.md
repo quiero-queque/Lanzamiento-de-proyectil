@@ -95,7 +95,7 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 ##  Distribución de Tareas
 
 ### [Samuel Cament] — Desarrollador principal
-- [ ] Implementar funciones de física (`calcular_alcance`, `calcular_altura_max`, etc.)
+- [x] Implementar funciones de física (`calcular_alcance`, `calcular_altura_max`, etc.)
 - [x] Diseñar las estructuras `Planeta` y `Resultado`
 - [x] Verificar que las fórmulas físicas sean correctas
 - [ ] Agregar función de comparación entre planetas
@@ -108,7 +108,7 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 - [ ] Diseñar la tabla de posiciones formateada
 - [ ] Mejorar la interfaz visual en el Hito 2
 
-### [Cristobal Oyarzun] — Gestor GitHub + Documentación
+### [Francisco Condori] — Gestor GitHub + Documentación
 - [x] Crear y configurar el repositorio en GitHub
 - [x] Mantener el README actualizado en cada hito
 - [x] Actualizar el `.gitignore` del proyecto
@@ -116,11 +116,11 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 - [ ] Organizar las carpetas `hito1/`, `hito2/`, `hito3/`
 - [ ] Documentar los cambios entre versiones
 
-### [Francisco Condori] — Investigación + Video
+### [Cristobal Oyarzun] — Investigación + Video
 - [x] Investigar las ecuaciones del movimiento parabólico
 - [x] Buscar datos reales de gravedad de cada planeta
-- [x] Redactar el marco teórico del proyecto
-- [x] Escribir el guión del video explicativo
+- [ ] Redactar el marco teórico del proyecto
+- [ ] Escribir el guión del video explicativo
 - [ ] Grabar y editar el video demostrativo
 - [ ] Subir el video y agregar el enlace al README
 
