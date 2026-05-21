@@ -98,13 +98,13 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 - [x] Implementar funciones de física (`calcular_alcance`, `calcular_altura_max`, etc.)
 - [x] Diseñar las estructuras `Planeta` y `Resultado`
 - [x] Verificar que las fórmulas físicas sean correctas
+- [ ] Arreglar bugs
 - [ ] Migrar lógica de física al Hito 2 en C++
 
 ### [Benjamin Vargas] — Desarrollador de interfaz
 - [x] Implementar el menú interactivo con validación de entrada
 - [x] Diseñar la pantalla de bienvenida con instrucciones
 - [ ] Crear el modo libre
-- [ ] Arreglar bugs
 - [ ] Crear el gráfico ASCII de la trayectoria
 - [ ] Diseñar la tabla de posiciones formateada
 - [ ] Mejorar la interfaz visual en el Hito 2
