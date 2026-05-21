@@ -1,16 +1,16 @@
 #  Simulador de Lanzamiento Parabólico
 ---
 
-##  Problematica a Solucionar 
+##  Problematica a Solucionar (resumido)
 
-Está demostrado que cada persona tiene una forma diferente de aprender diferentes tipos de temas, en este caso la fisica, unos prefieren la lectura, otros la práctica, otros los videos, etc. Por eso se diseñará e implementará un videojuego que con diferentes funcionalidades, se buscará que un usuario pueda aprender conceptos prácticos de física.
-
+Está demostrado que cada persona tiene una forma de aprender distinta los casos fisicos, por lo que se debe crear y aplicar un videojuego con distintas funciones, en donde se busca que el usuario aprenda conceptos fisicos.
 
 ---
 
 ##  Objetivo General
 
-Crear un juego con fines educativos programado en C, para visualizar y analizar el movimiento parabólico haciendo visible la física detrás del lanzamiento.
+Desarrollar un simulador en C++ orientado a fines educativos con objetos que modele el lanzamiento de proyectiles en distintos planetas del sistema solar, calculando la trayectoria y presentando los resultados en la consola.
+
 
 ---
 
@@ -42,12 +42,20 @@ Crear un juego con fines educativos programado en C, para visualizar y analizar 
 | [Samuel Cament] | Desarrollador principal | Lógica de física, funciones de cálculo, estructuras de datos |
 | [Benjamin Vargas] | Desarrollador de interfaz | Menú interactivo, visualización ASCII, pantalla de bienvenida |
 
-###  Gestión e Investigación
-
+###  Gestión y Video 
 | Integrante | Rol | Responsabilidades |
 |-----------|-----|-------------------|
-| [Cristobal Oyarzun] | Gestor GitHub + Documentación | Manejo del repositorio, README, commits, control de versiones |
-| [Francisco Condori] | Investigación + Video explicativo | Búsqueda de información física, guión y producción del video del proyecto |
+| [Cristobal Oyarzun] | Gestor GitHub + video exclicativo | Readme, Guión y producción del video del proyecto |
+| [Francisco Condori] | Gestor GitHub + Documentación | Manejo del repositorio, commits, control de versiones |
+
+---
+## Funcionalidades implementadas
+
+-Selección de planeta
+El usuario elige entre los cuerpos celestes del sistema solar (más la Luna), cada uno con su gravedad en m/s².
+
+-Configuración del lanzamiento
+Se ingresan el ángulo y la velocidad inicial. Ambos valores debe ser aceptados con manejo de excepciones; si no son aceptados, el programa los solicita nuevamente.
 
 ---
 
