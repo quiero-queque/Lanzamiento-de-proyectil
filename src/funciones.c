@@ -1,14 +1,4 @@
 #include "funciones.h"
-const float PI= 3.1416;
-const float TIERRA= 9.81;
-const float VENUS= 8.87;
-const float MERCURIO= 3.70;
-const float MARTE = 3.71;
-const float JUPITER = 24.79;
-const float SATURNO =10.44;
-const float URANO= 8.69;
-const float NEPTUNO =11.15;
-const float LUNA = 1.62;
 float calcular_radianes(float angulo){
     float radianes= (angulo*PI)/180;
     return radianes;
@@ -131,4 +121,11 @@ void iniciar_juego(){
         }
     }
     return;
+}
+void instrucciones(char eleccion){
+    printf("Intrucciones:\n");
+    printf("Hay que ajustar la gravedad, velocidad y angulo de lanzamiento\n");
+    printf("El numero PI esta aproximado a 3.1416\n");
+    printf("Selecciona cualquier tecla para volver \n");
+    scanf(" %c", &eleccion);
 }
