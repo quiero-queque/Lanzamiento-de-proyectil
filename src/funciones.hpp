@@ -1,9 +1,10 @@
+#include <iostream>
 #include <stdio.h>
-#include <math.h>
 #include <stdlib.h> // para acceder a la funcion system()
 #include <cmath> // para redondear los decimales
 #include <random> // para generar los valores aleatorios a distintos problemas
-
+#include <vector>
+#include <string>
 
 
 #define PI 3.1416
@@ -31,18 +32,20 @@ class jugador{
     int puntaje;
 
     public:
-    jugador(std::tring nombre){
+    jugador(std::string nombre){
         this->nombre = nombre;
+        this->puntaje = 0;
     }
 
     int subir_puntaje(){
         puntaje+=1;
+        return puntaje;
     }
     void Mostrar_nombre(){
         std::cout<<"\n Nombre de usuario: "<<nombre;
     }
     
-}
+};
 
 class ResolverProblemas{
     private:
@@ -65,27 +68,27 @@ class ResolverProblemas{
     }
     //esta funcion permite cambiar los angulos a radianes
     float calcular_altura(){
-        float altura= velocidad* t* sin(calcular_radianes(angulo))- (g*t*t)/2;
+        float altura= velocidad* sin(calcular_radianes())*t- (g*t*t)/2;
         return altura;
     }
     //esta funcion permite calcular la altura en un instante de tiempo
     float calcular_alturamax(){
-        float alturamax= (velocidad*velocidad)*(sin(calcular_radianes(angulo))*sin(calcular_radianes(angulo))/(2*g));
+        float alturamax= (((velocidad*velocidad)*(sin(calcular_radianes())*sin(calcular_radianes())))/(2*g));
         return alturamax;
     }
     //esta funcion permite calcular la altura maxima agarrada por el proyectil
     float calcular_alcance(){
-        float alcance = velocidad*cos(calcular_radianes(angulo))*t;
+        float alcance = velocidad*cos(calcular_radianes())*t;
         return alcance;
     }
     //esta funcion calcula la distancia horizontal en un instante de tiempo
     float calcular_tiempo(){
-       float tiempo= 2*velocidad*sin(calcular_radianes(angulo))/(g);
+       float tiempo= 2*velocidad*sin(calcular_radianes())/(g);
        return tiempo;
     }
     //esta funcion calcula el tiempo que tarda el proyectil en chocar con el suelo
     float calcular_alcancemax() {
-        float alcancemax= (velocidad * velocidad * sin(2 * calcular_radianes(angulo))) / g;
+        float alcancemax= (velocidad * velocidad * sin(2 * calcular_radianes())) / g;
         return alcancemax;
     }
-}
+};

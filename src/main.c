@@ -1,6 +1,6 @@
 #include "funciones.hpp"
 #include <stdlib.h>
-int main(){
+/*int main(){
     char eleccion;
     do{
         system("clear");
@@ -31,5 +31,16 @@ int main(){
             }
     }while(eleccion != '3');
     return 0;
-}
+}*/
 
+int main() {
+    ResolverProblemas p1(an1, v1, 0, 9.81);
+    float p_t = p1.calcular_tiempo(); // primero se calcula el tiempo y en base a eso lo demas se resuelve
+
+    ResolverProblemas p2(an1, v1, p_t, 9.81);
+    float pdos = p2.calcular_alturamax(); //probamos esta funcion solo en modo de prueba
+
+    std::cout << GenerarProblema() << "\n";
+    std::cout << pdos << " es la altura máxima\n";
+  return 0; 
+}

@@ -1,7 +1,7 @@
 #include "funciones.hpp" 
-
-void GenerarProblema(int dificultad){
-
+#include <iostream>
+//USO DE IA PARA GENERAR NUMEROS ALEATORIOS
+//--------------------------------------------------------------------------------------------
     float generar_random_angulo(float min, float max) {
     std::random_device rd;  //semilla para que numeros sean aleatorios
     std::mt19937 gen(rd()); // motor de generacion eficiente
@@ -9,35 +9,35 @@ void GenerarProblema(int dificultad){
     return dist(gen); // devuelve un valor entre min y max
     }
 
-    float generar_random_angulo(float min, float max) {
-    std::random_device rd;  //semilla para que numeros sean aleatorios
-    std::mt19937 gen(rd()); // motor de generacion eficiente
-    std::uniform_real_distribution<> dist(min, max); // define valor minimo y maximo
-    return dist(gen); // devuelve un valor entre min y max
-    }
     float generar_random_velocidad(float min, float max) {
     std::random_device rd;  
     std::mt19937 gen(rd()); 
     std::uniform_real_distribution<> dist(min, max);
     return dist(gen);
     }
-    float generar_random_t(float min, float max) {
-    std::random_device rd;  //semilla para que numeros sean aleatorios
-    std::mt19937 gen(rd()); // motor de generacion eficiente
-    std::uniform_real_distribution<> dist(min, max); // define valor minimo y maximo
-    return dist(gen); // devuelve un valor entre min y max
-    }
-    float generar_random_angulo_g(float min, float max) {
-    std::random_device rd;  //semilla para que numeros sean aleatorios
-    std::mt19937 gen(rd()); // motor de generacion eficiente
-    std::uniform_real_distribution<> dist(min, max); // define valor minimo y maximo
-    return dist(gen); // devuelve un valor entre min y max
-    }
+//------------------------------------------------------------------------------------------
+   
+    float v1=generar_random_velocidad(1.00, 200.00); //Definimos limites de acuerdo a la logica fisica
+    float an1=generar_random_angulo(1, 89);
+
+    std::string GenerarProblema(){ 
+        std::string Planeta = "Tierra"; //de modo de prueba solo tenemos asignado el planeta tierra
+        float Gravedad = 9.81;
+
+        std::string problema = "En el Planeta " + Planeta +
+                           " con gravedad " + std::to_string(Gravedad) +
+                           " se lanza un proyectil a " + std::to_string(v1) +
+                           " m/s a un ángulo de " + std::to_string(an1) + "°";
+        return problema;                   
 
 }
 
+
+
+  
+
 //esta funcion permite que el juego se ejecute, lo hacemos de esta forma para que el main quede mas limpio
-void iniciar_juego(){
+/*void iniciar_juego(){
     float planeta[9]= {TIERRA, LUNA, MERCURIO, MARTE, URANO, VENUS, SATURNO, NEPTUNO, JUPITER};
     char *nombre[9]={"TIERRA", "LUNA", "MERCURIO", "MARTE", "URANO", "VENUS", "SATURNO", "NEPTUNO", "JUPITER"};
     for(int i = 1; i <= 9; i++){
@@ -127,7 +127,8 @@ void iniciar_juego(){
         }
     }
     return;
-}
+}*/
+
 void instrucciones(char eleccion){
     printf("Intrucciones:\n");
     printf("Hay que ajustar la gravedad, velocidad y angulo de lanzamiento\n");
