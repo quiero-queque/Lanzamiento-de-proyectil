@@ -24,8 +24,7 @@ Problematica a resolver:
 
 Objetivo General:
 
--Crear un juego con fines educativos programado en C, para visualizar y analizar el movimiento 
-parabólico haciendo visible la física detrás del lanzamiento.
+-Desarrollar un simulador en C++ orientado a fines educativos con objetos que modele el lanzamiento de proyectiles en distintos planetas del sistema solar, calculando la trayectoria y presentando los resultados en la consola.
 
 Objetivos Específicos:
 
