@@ -13,7 +13,7 @@ Los integrantes se presentaran uno a uno diciendo su nombre y rol.
 -Cristóbal Oyarzún(Investigación + Video explicativo)
 
 
-2.--Problematica y Objetivos(1,5 min)--
+2.--Problematica y Objetivos(1 min)--
 
 #Se debera presentar la presentar la problematica y los objetivos para dar a entender.
 
