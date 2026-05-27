@@ -10,6 +10,8 @@ int main(){
         printf("2-Intrucciones\n");
         printf("3-Salir del juego\n");
         scanf("%c", &eleccion);
+        //solucion bug
+        while(getchar() != '\n');
         switch(eleccion){
                 case '1':
                 system("clear");
