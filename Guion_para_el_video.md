@@ -1,4 +1,4 @@
-##Guion para el el video##
+# Guion para el el video 2 #
 
 1.--Presentacion del equipo(30 seg)--
 
@@ -10,7 +10,7 @@ Los integrantes se presentaran uno a uno diciendo su nombre y rol.
 
 -Francisco Condori(Gestor GitHub + Documentación)
 
--Cristóbal Oyarzún(Investigación + Video explicativo)
+-Cristóbal Oyarzún(Gestor Github + Video explicativo)
 
 
 2.--Problematica y Objetivos(1 min)--
@@ -34,64 +34,60 @@ Objetivos Específicos:
 
 -Permitir al usuario comparar cómo cambia el alcance, altura y tiempo de vuelo en distintos cuerpos celestes (Luna, Marte, Júpiter, etc.).
 
--Mostrar las comparaciones a través de una tabla comparativa de todos los planetas con el mismo lanzamiento, analizando y 
-entendiendo cómo influye la gravedad.
+-Mostrar las comparaciones a través de una tabla comparativa de todos los planetas con el mismo lanzamiento, analizando y entendiendo cómo influye la gravedad.
 
 
-3.--Diseño del programa(1 min)--
+3.--Avances desde el hito 1 (1,5 min)--
 
-#Explicar como se reciben los datos en el programa y explicar sus funciones.
+"En el Hito 1 entregamos el simulador en lenguaje C. Funcionaba correctamente, pero toda la lógica estaba en funciones sueltas y structs sin encapsulamiento."
 
-"El programa está estructurado en módulos bien definidos."
+"Para el Hito 2 migramos completamente a C++. Los cambios más importantes fueron los siguientes:"
 
-"Primero tenemos el módulo de entrada, donde el usuario empieza en el planeta del nivel 1 y define el ángulo de lanzamiento entre 0 y 180 grados, y la velocidad inicial dada por el usuario."
+""
 
-"Luego está el módulo de cálculo físico, que aplica las ecuaciones del tiro parabólico usando la gravedad real de cada planeta.
-Calcula la trayectoria punto a punto, alcance y el tiempo de vuelo."
+""
 
-"Después viene el módulo de visualización, que despliega los resultados numéricos y una representación gráfica de la trayectoria directamente en la consola."
+""
 
-"Finalmente, el módulo de control del juego permite repetir simulaciones con distintos planetas o parámetros sin necesidad de reiniciar el programa."
+""
 
-"Los planetas disponibles son 9: Luna, Mercurio, Venus, Tierra, Luna, Marte, Júpiter, Saturno y Neptuno, cada uno con su gravedad real."
-
+""
 
 
-4.--Pruebas Basicas(1 min)--
+4.--Diseño en C++: clases y relaciones (2 min)--
+
+"El programa está organizado en nose clases principales."
+
+
+
+5..--Pruebas Basicas(1 min)--
 
 #A continuación ejecutamos algunas pruebas para validar las funcionalidades.
 
 no se todavia espero al samuel rondon
 
-
-5.--Organización en GitHub(1 min)--
+6.--Organización en GitHub(1,5 min)--
 
 #La organización del trabajo la gestionamos completamente a través de GitHub.
 
 La distribución de las tareas fueron las siguientes:
 
-[Samuel Cament] se encargo de la Lógica de física, funciones de cálculo.
-[Benjamin Vargas]	se encargo del Menú interactivo, visualización, pantalla de bienvenida.
-[Francisco Condori] se encargo del Manejo del repositorio, README, control de versiones.
-[Cristóbal Oyarzun]	se encargo de la Búsqueda de información física, guión y producción del video del proyecto.
+[Samuel Cament] 
+[Benjamin Vargas]	
+[Francisco Condori] se encargo del Manejo del repositorio, control de versiones.
+[Cristóbal Oyarzun]	README, guión y producción del video del proyecto.
 
-"Creamos issues para cada funcionalidad, por ejemplo: Mejorar la interfaz visual, Agregar función de compararación de planetas, 
-Diseño de tablas de posiciones, con el proposito de que cada issue fue asignado a un integrante responsable."
-"Definimos un milestone llamado Hito 1 que agrupa todos los issues de esta etapa"
-"usamos el project board con columnas con el nombre de cada uno para hacer seguimiento del avance de cada uno."
+"El código está en la carpeta (src/) con la separación correcta entre archivos (.h) de declaraciones y (.cpp) de implementaciones, tal como lo exige el hito."
 
-6.--Proximos pasos(20 seg)--
+"Creamos el Milestone Hito 2 con issues asociadas, cada una representando una tarea concreta: migrar cada clase, implementar el historial, documentar el README, completar las pruebas y el AI_USAGE.md."
 
-Para el Hito 2 tenemos planificados los siguientes avances:
 
-"Migrar lógica de física al Hito 2 en C++"
+7.--Proximos pasos(20 seg)--
 
-"Mejorar la interfaz visual en el Hito 2, creando funciones que mejoren la experiencia visual del usuario y vea la trayectoria de el proyectil."
+"Para el Hito 3 tenemos planificados los siguientes avances:"
 
-"corregir unos bugs"
 
-"haremos un modo de lanzamiento libre"
 
-7.--Cierre(10 seg)--
+8.--Cierre(20 seg)--
 
-"Eso es todo por el Hito 1. Gracias por su atención. Somos el equipo Quiero queque, y seguimos trabajando para el siguiente hito."
+"Eso es todo por el Hito 2. Migramos el simulador completo a C++ con diseño orientado a objetos, aplicando encapsulamiento, composición y las herramientas estándar del lenguaje."
