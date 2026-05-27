@@ -27,8 +27,8 @@ Desarrollar un simulador en C++ orientado a fines educativos con objetos que mod
 
 | Hito | Tecnología | Estado | Descripción |
 |------|-----------|--------|-------------|
-| **Hito 1** | C |  En progreso | Prototipo básico en consola con física, menú y exportación |
-| **Hito 2** | C++ + Gráficos |  Pendiente | Reorganización en clases + visualización gráfica |
+| **Hito 1** | C |  Terminado | Prototipo básico en consola con física, menú y exportación |
+| **Hito 2** | C++ + Gráficos |  En proceso | Reorganización en clases + visualización gráfica |
 | **Hito 3** | C++ + Interfaz |  Pendiente | Interfaz desacoplada de la lógica + página web |
 
 ---
@@ -40,7 +40,7 @@ Desarrollar un simulador en C++ orientado a fines educativos con objetos que mod
 | Integrante | Rol | Responsabilidades |
 |-----------|-----|-------------------|
 | [Samuel Cament] | Desarrollador principal | Lógica de física, funciones de cálculo, estructuras de datos |
-| [Benjamin Vargas] | Desarrollador de interfaz | Menú interactivo, visualización ASCII, pantalla de bienvenida |
+| [Benjamin Vargas] | Desarrollador de interfaz | Menú interactivo, pantalla de bienvenida |
 
 ###  Gestión y Video 
 | Integrante | Rol | Responsabilidades |
