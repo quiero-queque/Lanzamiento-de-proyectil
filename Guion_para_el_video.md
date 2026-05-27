@@ -20,9 +20,7 @@ Los integrantes se presentaran uno a uno diciendo su nombre y rol.
 
 Problematica a resolver:
 
--Está demostrado que cada persona tiene una forma diferente de aprender diferentes tipos de temas,en este caso la fisica, unos prefieren la lectura, 
-otros la práctica, otros los videos, etc. Por eso se diseñará e implementará un videojuego que con diferentes funcionalidades, 
-se buscará que un usuario pueda aprender conceptos prácticos de física.
+-Está demostrado que cada persona tiene una forma de aprender distinta los casos fisicos, por lo que se debe crear y aplicar un videojuego con distintas funciones, en donde se busca que el usuario aprenda conceptos fisicos.
 
 Objetivo General:
 
