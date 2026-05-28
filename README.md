@@ -115,7 +115,7 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 - [x] Implementar el menú interactivo con validación de entrada
 - [x] Diseñar la pantalla de bienvenida con instrucciones
 - [x] Crear el modo libre
-- [ ] Diseñar la tabla de posiciones formateada
+- [ ] Diseñar la tabla de posiciones( Hito 3)
 
 
 ### [Francisco Condori] — Gestor GitHub + Documentación
