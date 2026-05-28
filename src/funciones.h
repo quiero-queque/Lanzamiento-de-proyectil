@@ -18,5 +18,4 @@ float calcular_radianes(float Angulo);
 float calcular_alturamax(float velocidad, float angulo, float g);
 void instrucciones(char eleccion);
 void iniciar_juego();
-//solucion bug
-float limpiarbuffer(const char *mensaje)
+
