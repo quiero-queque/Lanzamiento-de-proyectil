@@ -16,123 +16,55 @@
     return dist(gen);
     }
 //------------------------------------------------------------------------------------------
-   
     float v1=generar_random_velocidad(1.00, 200.00); //Definimos limites de acuerdo a la logica fisica
     float an1=generar_random_angulo(1, 89);
 
-    std::string GenerarProblema(){ 
-        std::string Planeta = "Tierra"; //de modo de prueba solo tenemos asignado el planeta tierra
-        float Gravedad = 9.81;
+std::string GenerarProblema(int n){ 
+    std::string Planeta = "Tierra"; //de modo de prueba solo tenemos asignado el planeta tierra
+    float Gravedad = 9.81;
 
-        std::string problema = "En el Planeta " + Planeta +
-                           " con gravedad " + std::to_string(Gravedad) +
-                           " se lanza un proyectil a " + std::to_string(v1) +
-                           " m/s a un ángulo de " + std::to_string(an1) + "°";
-        return problema;                   
-
+    std::string problema = "\n Pregunta " + std::to_string(n) + " \nEn el Planeta " + Planeta +
+                " con gravedad " + std::to_string(Gravedad) +
+                " se lanza un proyectil a " + std::to_string(v1) +
+                " m/s a un ángulo de " + std::to_string(an1) + "°\n¿Cuál es la altura máxima que alcanza?";
+    return problema;                   
 }
 
-
-
-  
-
 //esta funcion permite que el juego se ejecute, lo hacemos de esta forma para que el main quede mas limpio
-/*void iniciar_juego(){
-    float planeta[9]= {TIERRA, LUNA, MERCURIO, MARTE, URANO, VENUS, SATURNO, NEPTUNO, JUPITER};
-    char *nombre[9]={"TIERRA", "LUNA", "MERCURIO", "MARTE", "URANO", "VENUS", "SATURNO", "NEPTUNO", "JUPITER"};
-    for(int i = 1; i <= 9; i++){
-        float resultado;
-        printf("Nivel %d\n", i);
-        printf("Te encuentras en %s\n Su gravedad es: %.2f\n", nombre[i-1], planeta[i-1]);
-        if (i== 1){
-            printf("Bitácora Estelar - Nivel 1: Tierra. Calibración inicial del sistema. Lanzamos una sonda de prueba a 15 m/s con un ángulo de 30º. Calcule la distancia recorrida horizontalmente (alcance máximo):\n");
-            scanf("%f", &resultado);
-            if (fabs(resultado - calcular_alcancemax(15, 30, planeta[i-1])) < 0.05){
-                printf("Felicidades!!\n");
-            } else{
-                printf("Te has equivocado, intentalo de nuevo\n");
-                i= i-1;
-            }
-        }else if(i== 2){
-            printf("Bitácora Estelar - Nivel 2: Luna. Entorno de baja gravedad. Un rover expulsa una muestra de roca a 10 m/s con un ángulo de 45º. Calcule el tiempo que le toma tocar el suelo:\n");
-            scanf("%f", &resultado);
-            if (fabs(resultado - calcular_tiempo(10, 45, planeta[i-1]))< 0.05){
-                printf("Felicidades!!\n");
-            } else{
-                printf("Te has equivocado, intentalo de nuevo\n");
-                i= i-1;
-            }
-        }else if(i== 3){
-            printf("Bitácora Estelar - Nivel 3: Mercurio. Proximidad solar crítica. Un géiser expulsa minerales a 20 m/s con un angulo 60º. Calcule la altura máxima que alcanzan los fragmentos:\n");
-            if (fabs(resultado - calcular_alturamax(20, 60, planeta[i-1]))< 0.05){
-                printf("Felicidades!!\n");
-            } else{
-                printf("Te has equivocado, intentalo de nuevo\n");
-                i= i-1;
-            }
-        }else if(i== 4){
-            printf("Bitácora Estelar - Nivel 4: Marte. Navegando en tormentas de arena. Disparamos una bengala a 25 m/s con un ángulo de 40º. Calcule su alcance exacto a los 2 segundos de vuelo:\n");
-            scanf("%f", &resultado);
-            if (fabs(resultado - calcular_alcance(25, 40, 2))< 0.05){
-                printf("Felicidades!!\n");
-            } else{
-                printf("Te has equivocado, intentalo de nuevo\n");
-                i= i-1;
-            }
-        }else if(i== 5){
-            printf("Bitácora Estelar - Nivel 5: Urano. Explorando el gigante de hielo. Un dron atmosférico es impulsado a 30 m/s con un angulo de 50º. ¿A qué altura se encontrará exactamente a los 3 segundos de su lanzamiento?\n");
-            scanf("%f", &resultado);
-            if (fabs(resultado - calcular_altura(30, 50, 3, planeta[i-1]))< 0.05){
-                printf("Felicidades!!\n");
-            } else{
-                printf("Te has equivocado, intentalo de nuevo\n");
-                i= i-1;
-            }
-        }else if(i== 6){
-            printf("Bitácora Estelar - Nivel 6: Venus. Presión extrema. Lanzamos un sensor a 50 m/s y 60º. Calcule la ALTURA del sensor en el instante exacto que corresponde a la MITAD de su tiempo total de vuelo:\n");
-            scanf("%f", &resultado);
-            if (fabs(resultado - calcular_altura(50, 60, calcular_tiempo(50, 60, planeta[i-1]) / 2.0, planeta[i-1])) < 0.05){
-                printf("Felicidades!!\n");
-            } else{
-                printf("Te has equivocado, intentalo de nuevo\n");
-                i= i-1;
-            }
-        }else if(i== 7){
-            printf("Bitácora Estelar - Nivel 7: Saturno. Evasión de anillos. Un dron es expulsado a 70 m/s con un ángulo de 45º. Calcule su ALCANCE HORIZONTAL evaluado exactamente utilizando su TIEMPO TOTAL de vuelo:\n");
-            scanf("%f", &resultado);
-            if (fabs(resultado - calcular_alcance(70, 45, calcular_tiempo(70, 45, planeta[i-1]))) < 0.05){
-                printf("Felicidades!!\n");
-            } else{
-                printf("Te has equivocado, intentalo de nuevo\n");
-                i= i-1;
-            }
-        }else if(i== 8){
-            printf("Bitácora Estelar - Nivel 8: Neptuno. Tormentas supersónicas. Un misil se lanza a 90 m/s con un angulo de inclinacion de 70º. Calcule la ALTURA del misil exactamente 2 segundos ANTES de que alcance su tiempo total de vuelo:\n");
-            scanf("%f", &resultado);
-            if (fabs(resultado - calcular_altura(90, 70, calcular_tiempo(90, 70, planeta[i-1])-2, planeta[i-1])) < 0.08){
-                printf("Felicidades!!\n");
-            } else{
-                printf("Te has equivocado, intentalo de nuevo\n");
-                i= i-1;
-            }
-        }else if(i== 9){
-            printf("Bitácora Estelar - Nivel 9: Júpiter. El coloso gravitatorio. Un módulo se lanza a 150 m/s con un angulo de inclinacion de 80º. Calcule el ALCANCE HORIZONTAL en el momento exacto en que el módulo alcanza su ALTURA MÁXIMA (es decir, a la mitad de su tiempo total de vuelo):\n");
-            scanf("%f", &resultado);
-            if (fabs(resultado - calcular_alcance(150, 80, calcular_tiempo(150, 80, planeta[i-1]) / 2.0)) < 0.05){
-                printf("Felicidades!!\n");
-            } else{
-                printf("Te has equivocado, intentalo de nuevo\n");
-                i= i-1;
-            }
+
+
+void iniciar_juego(int o){ 
+    for(int i = 1; i <= o; i++){
+     // float planeta[9]= {TIERRA, LUNA, MERCURIO, MARTE, URANO, VENUS, SATURNO, NEPTUNO, JUPITER};
+     // char *nombre[9]={"TIERRA", "LUNA", "MERCURIO", "MARTE", "URANO", "VENUS", "SATURNO", "NEPTUNO", "JUPITER"};
+        float v1=generar_random_velocidad(1.00, 200.00); //Definimos limites de acuerdo a la logica fisica
+        float an1=generar_random_angulo(1, 89);
+
+        float Resultado;
+        ResolverProblemas p1(an1, v1, 0, 9.81);
+        float tiempo = p1.calcular_tiempo(); // primero se calcula el tiempo y en base a eso lo demas se resuelve
+
+        ResolverProblemas p2(an1, v1, tiempo, 9.81);
+        float altura_max = p2.calcular_alturamax(); //probamos esta funcion solo en modo de prueba
+        float alcance_t = p2.calcular_alcance();
+
+        std::cout << GenerarProblema(i) << "\n";
+        std::cout << altura_max << " es la altura máxima\n";
+        std::cin >> Resultado;
+        if((Resultado > (altura_max - 1)) && (Resultado < (altura_max + 1))){ //De momento se establece rango de respuesta valida
+            std::cout << "Respuesta correcta\n";
+            system("clear");
+        } else{
+            std::cout << "Respuesta incorrecta (Presione enter para continuar)";
         }
     }
-    return;
-}*/
+}
 
-void instrucciones(char eleccion){
-    printf("Intrucciones:\n");
-    printf("Hay que ajustar la gravedad, velocidad y angulo de lanzamiento\n");
-    printf("El numero PI esta aproximado a 3.1416\n");
-    printf("Selecciona cualquier tecla para volver \n");
-    scanf(" %c", &eleccion);
+void instrucciones(){
+    std::cout << "Intrucciones:\n";
+    std::cout << "Hay que ajustar la gravedad, velocidad y angulo de lanzamiento\n";
+    std::cout << "El numero PI esta aproximado a 3.1416\n";
+    std::cout << "Selecciona cualquier tecla para volver \n";
+    std::string eleccion;
+    std::cin >> eleccion;
 }

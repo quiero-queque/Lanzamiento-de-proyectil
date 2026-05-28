@@ -23,8 +23,9 @@ float calcular_altura(float velocidad, float angulo, float t, float g);
 float calcular_tiempo(float velocidad, float angulo, float g);
 float calcular_radianes(float Angulo);
 float calcular_alturamax(float velocidad, float angulo, float g);
-void instrucciones(char eleccion);
-void iniciar_juego();
+void instrucciones();
+void iniciar_juego(int o);
+std::string GenerarProblema(int n);
 
 class jugador{
     private:
