@@ -1,0 +1,48 @@
+en .h 
+void modolibre();
+//solucion bug
+float limpiarbuffer(const char *instruccion);
+
+En .c
+void modolibre(){
+    float velocidad;
+    char condicion;
+    float angulo;
+    float planeta[9]= {TIERRA, VENUS, MERCURIO, MARTE, JUPITER, SATURNO, URANO, NEPTUNO, LUNA};
+    int n;
+    do{
+        printf("Ingrese angulo en decimales\n");
+        scanf("%f", &angulo);
+        if (angulo>= 0 && angulo<=180){
+            printf("Bienvenido al modo libre, ingrese una velocidad\n");
+            scanf("%f", &velocidad);
+            printf("Elige un planeta:\n1-TIERRA\n2-VENUS\n3-MERCURIO\n4-MARTE\n5-JUPITER\n6-SATURNO\n7-URANO\n8-NEPTUNO\n9-LUNA\n");
+            scanf("%d", &n);
+            if (n>=1 && n<=9){
+                printf("El tiempo de caida fue: %f\n", calcular_tiempo(velocidad, calcular_radianes(angulo), planeta[n-1]));
+                printf("la distancia recorrida fue de: %f\n", calcular_alcancemax(velocidad, calcular_radianes(angulo), planeta[n-1]));
+                printf("Su altura maxima fue: %f\n", calcular_alturamax(velocidad, calcular_radianes(angulo), planeta[n-1]));
+            }else{
+                printf("Planeta no valido\n");
+            }
+        }else{
+            printf("Angulo no valido, ingrese uno entre 0 y 180\n");
+        }
+        printf("Quieres continuar? 1-si\n2-no\n");
+        scanf(" %c", &condicion);
+    }while(condicion!='2');
+}
+float limpiarbuffer(const char *instruccion){
+    float valor;
+    while(1){
+        printf("%s", instruccion);
+        if(scanf("%f", &valor)==1){  //como lee un valor, si logra leerlo bien debe dar 1
+            return valor;
+        }
+        printf("Formato invalido\n");
+        int c;
+        while ((c = getchar()) != '\n' && c != EOF);
+        // (c = getchar()) != '\n' = lee uno por uno actualizando la posicion de c, el getcha lee uno a uno y lo descarta, hasta llegar al salto de linea
+        //&& c != EOF= seguridad extra
+    }
+}
