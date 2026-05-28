@@ -108,30 +108,29 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 - [x] Implementar funciones de física (`calcular_alcance`, `calcular_altura_max`, etc.)
 - [x] Diseñar las estructuras `Planeta` y `Resultado`
 - [x] Verificar que las fórmulas físicas sean correctas
-- [ ] Arreglar bugs
+- [x] Arreglar bugs
 - [ ] Migrar lógica de física al Hito 2 en C++
 
 ### [Benjamin Vargas] — Desarrollador de interfaz
 - [x] Implementar el menú interactivo con validación de entrada
 - [x] Diseñar la pantalla de bienvenida con instrucciones
-- [ ] Crear el modo libre
-- [ ] Crear el gráfico ASCII de la trayectoria
+- [x] Crear el modo libre
 - [ ] Diseñar la tabla de posiciones formateada
-- [ ] Mejorar la interfaz visual en el Hito 2
+
 
 ### [Francisco Condori] — Gestor GitHub + Documentación
 - [x] Crear y configurar el repositorio en GitHub
 - [x] Mantener el README actualizado en cada hito
 - [x] Actualizar el `.gitignore` del proyecto
-- [ ] Hacer commits organizados con mensajes descriptivos
+- [x] Hacer commits organizados con mensajes descriptivos
 - [ ] Organizar las carpetas `hito1/`, `hito2/`, `hito3/`
 - [ ] Documentar los cambios entre versiones
 
 ### [Cristobal Oyarzun] — Investigación + Video
 - [x] Investigar las ecuaciones del movimiento parabólico
 - [x] Buscar datos reales de gravedad de cada planeta
-- [ ] Redactar el marco teórico del proyecto
-- [ ] Escribir el guión del video explicativo
+- [x] Redactar el marco teórico del proyecto
+- [x] Escribir el guión del video explicativo 2
 - [ ] Grabar y editar el video demostrativo
 - [ ] Subir el video y agregar el enlace al README
 
