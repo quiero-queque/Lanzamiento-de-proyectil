@@ -41,7 +41,7 @@ Objetivos Específicos:
 
 ---
 
-## 3.Avances desde el hito 1 (1,5 min)
+## 3.Avances desde el hito 1 (1 min)
 
 "En el Hito 1 entregamos el simulador en lenguaje C. Funcionaba correctamente, pero toda la lógica estaba en funciones sueltas y structs sin encapsulamiento."
 
