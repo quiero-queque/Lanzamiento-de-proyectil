@@ -1,7 +1,7 @@
 #  Simulador de Lanzamiento Parabólico
 ---
 
-##  Problematica a Solucionar (resumido)
+##  Problematica a Solucionar
 
 Está demostrado que cada persona tiene una forma de aprender distinta los casos fisicos, por lo que se debe crear y aplicar un videojuego con distintas funciones, en donde se busca que el usuario aprenda conceptos fisicos.
 
