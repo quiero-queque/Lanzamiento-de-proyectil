@@ -73,8 +73,8 @@ La organización del trabajo la gestionamos completamente a través de GitHub.
 
 |La distribución de las tareas fueron las siguientes:|
 |---|
-|[Samuel Cament] encargado de migrar la mayor parte de C a C++|
-|[Benjamin Vargas]|
+|[Samuel Cament] encargado de migrar de C a C++ |
+|[Benjamin Vargas] |
 |[Francisco Condori] se encargo del Manejo del repositorio, control de versiones.|
 |[Cristóbal Oyarzun]	README, guión y producción del video del proyecto.|
 
