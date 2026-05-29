@@ -1,6 +1,8 @@
 # Guion para el el video 2 #
 
-1.--Presentacion del equipo(30 seg)--
+---
+
+# 1.--Presentacion del equipo(30 seg)--
 
 Los integrantes se presentaran uno a uno diciendo su nombre y rol.
 
@@ -12,8 +14,9 @@ Los integrantes se presentaran uno a uno diciendo su nombre y rol.
 
 -Cristóbal Oyarzún(Gestor Github + Video explicativo)
 
+---
 
-2.--Problematica y Objetivos(1 min)--
+# 2.--Problematica y Objetivos(1 min)--
 
 #Se debera presentar la presentar la problematica y los objetivos para dar a entender.
 
@@ -36,25 +39,21 @@ Objetivos Específicos:
 
 -Mostrar las comparaciones a través de una tabla comparativa de todos los planetas con el mismo lanzamiento, analizando y entendiendo cómo influye la gravedad.
 
+---
 
-3.--Avances desde el hito 1 (1,5 min)--
+# 3.--Avances desde el hito 1 (1,5 min)--
 
 "En el Hito 1 entregamos el simulador en lenguaje C. Funcionaba correctamente, pero toda la lógica estaba en funciones sueltas y structs sin encapsulamiento."
 
 "Para el Hito 2 migramos completamente a C++. Los cambios más importantes fueron los siguientes:"
 
-""
+"El catálogo de planetas pasó de ser un array estático global a un std::map, lo que permite buscar el planeta por nombre de forma directa"
 
-""
+"La validación de entradas pasó de bucles con scanf a diferencia con throw, que es el mecanismo de manejo de errores en C++."
 
-""
+---
 
-""
-
-""
-
-
-4.--Diseño en C++: clases y relaciones (2 min)--
+# 4.--Diseño en C++: clases y relaciones (2 min)--
 
 "El programa está organizado en diferentes clases principales."
 
@@ -64,15 +63,17 @@ Objetivos Específicos:
 
 "La clase Trayectoria siendo la más importante del simulador. Usa una composición que contiene un Proyectil y un Planeta. A partir de ellos, calcula todos los puntos de la parábola y entrega la altura máxima y el tiempo de vuelo. También genera el gráfico ASCII."
 
+"Y la clase Simulador es el controlador principal. Gestiona el menú, solicita los datos al usuario y lanza simulaciones. Cuando el programa termina"
 
+---
 
-5..--Pruebas Basicas(1 min)--
+# 5.--Pruebas Basicas(1 min)--
 
 #A continuación ejecutamos algunas pruebas para validar las funcionalidades.
 
+---
 
-
-6.--Organización en GitHub(1,5 min)--
+# 6.--Organización en GitHub(1,5 min)--
 
 #La organización del trabajo la gestionamos completamente a través de GitHub.
 
@@ -87,8 +88,9 @@ La distribución de las tareas fueron las siguientes:
 
 "Creamos el Milestone Hito 2 con issues asociadas, cada una representando una tarea concreta: migrar cada clase, implementar el historial, documentar el README, completar las pruebas y el AI_USAGE.md."
 
+---
 
-7.--Proximos pasos(20 seg)--
+# 7.--Proximos pasos(20 seg)--
 
 "Para el Hito 3 tenemos planificados los siguientes avances:"
 
