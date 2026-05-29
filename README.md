@@ -101,7 +101,11 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 
 ---
 
-## Compilacion
+## Compilacion En C
+- gcc -o simulador main.c funciones.c -lm
+- ./simulador
+
+## Compilacion En C++
 - gcc -o simulador main.c funciones.c -lm
 - ./simulador
 
