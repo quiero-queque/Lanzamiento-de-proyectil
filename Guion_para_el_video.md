@@ -57,19 +57,13 @@ Objetivos Específicos:
 
 "El programa está organizado en diferentes clases principales."
 
-"La clase Planeta representa un cuerpo con su nombre y gravedad. Contiene un método estático que entrega el catálogo completo de los planetas."
 
-"La clase Proyectil donde se encapsula los parámetros de lanzamiento: el ángulo y la velocidad inicial. Calcula las componentes horizontal y vertical de la velocidad."
-
-"La clase Trayectoria siendo la más importante del simulador. Usa una composición que contiene un Proyectil y un Planeta. A partir de ellos, calcula todos los puntos de la parábola y entrega la altura máxima y el tiempo de vuelo. También genera el gráfico ASCII."
-
-"Y la clase Simulador es el controlador principal. Gestiona el menú, solicita los datos al usuario y lanza simulaciones. Cuando el programa termina"
 
 ---
 
 ## 5.--Pruebas Basicas(1 min)--
 
-#A continuación ejecutamos algunas pruebas para validar las funcionalidades.
+A continuación ejecutamos algunas pruebas para validar las funcionalidades.
 
 ---
 
