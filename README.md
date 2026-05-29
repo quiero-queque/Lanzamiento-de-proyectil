@@ -144,7 +144,6 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 
 ### [Francisco Condori] — Gestor GitHub + Documentación
 - [x] Crear y configurar el repositorio en GitHub
-- [x] Mantener el README actualizado en cada hito
 - [x] Actualizar el `.gitignore` del proyecto
 - [x] Hacer commits organizados con mensajes descriptivos
 - [ ] Organizar las carpetas `hito1/`, `hito2/`, `hito3/`
@@ -154,6 +153,7 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 - [x] Investigar las ecuaciones del movimiento parabólico
 - [x] Buscar datos reales de gravedad de cada planeta
 - [x] Redactar el marco teórico del proyecto
+- [x] Mantener el README actualizado en el hito
 - [x] Escribir el guión del video explicativo 2
 - [ ] Grabar y editar el video demostrativo
 - [ ] Subir el video y agregar el enlace al README
