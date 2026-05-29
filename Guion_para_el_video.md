@@ -76,8 +76,7 @@ La organización del trabajo la gestionamos completamente a través de GitHub.
 |[Samuel Cament] encargado de migrar la mayor parte de C a C++|
 |[Benjamin Vargas]|
 |[Francisco Condori] se encargo del Manejo del repositorio, control de versiones.|
-
-[Cristóbal Oyarzun]	README, guión y producción del video del proyecto.
+|[Cristóbal Oyarzun]	README, guión y producción del video del proyecto.|
 
 "El código está en la carpeta (src/) con la separación correcta entre archivos (.h) de declaraciones y (.cpp) de implementaciones, tal como lo exige el hito."
 
