@@ -1,8 +1,8 @@
-## Guion para el el video 2 ##
+# Guion para el el video 2 #
 
 ---
 
-# 1.--Presentacion del equipo(30 seg)--
+## 1.--Presentacion del equipo(30 seg)--
 
 Los integrantes se presentaran uno a uno diciendo su nombre y rol.
 
@@ -16,7 +16,7 @@ Los integrantes se presentaran uno a uno diciendo su nombre y rol.
 
 ---
 
-# 2.--Problematica y Objetivos(1 min)--
+## 2.--Problematica y Objetivos(1 min)--
 
 #Se debera presentar la presentar la problematica y los objetivos para dar a entender.
 
@@ -41,7 +41,7 @@ Objetivos Específicos:
 
 ---
 
-# 3.--Avances desde el hito 1 (1,5 min)--
+## 3.--Avances desde el hito 1 (1,5 min)--
 
 "En el Hito 1 entregamos el simulador en lenguaje C. Funcionaba correctamente, pero toda la lógica estaba en funciones sueltas y structs sin encapsulamiento."
 
@@ -53,7 +53,7 @@ Objetivos Específicos:
 
 ---
 
-# 4.--Diseño en C++: clases y relaciones (2 min)--
+## 4.--Diseño en C++: clases y relaciones (2 min)--
 
 "El programa está organizado en diferentes clases principales."
 
@@ -67,13 +67,13 @@ Objetivos Específicos:
 
 ---
 
-# 5.--Pruebas Basicas(1 min)--
+## 5.--Pruebas Basicas(1 min)--
 
 #A continuación ejecutamos algunas pruebas para validar las funcionalidades.
 
 ---
 
-# 6.--Organización en GitHub(1,5 min)--
+## 6.--Organización en GitHub(1,5 min)--
 
 La organización del trabajo la gestionamos completamente a través de GitHub.
 
@@ -90,12 +90,12 @@ La distribución de las tareas fueron las siguientes:
 
 ---
 
-# 7.--Proximos pasos(20 seg)--
+## 7.--Proximos pasos(20 seg)--
 
 "Para el Hito 3 tenemos planificados los siguientes avances:"
 
 
 
-8.--Cierre(20 seg)--
+## 8.--Cierre(20 seg)--
 
 "Eso es todo por el Hito 2. Migramos el simulador completo a C++ con diseño orientado a objetos, aplicando encapsulamiento, composición y las herramientas estándar del lenguaje."
