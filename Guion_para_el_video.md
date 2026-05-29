@@ -1,4 +1,4 @@
-# Guion para el el video 2 #
+## Guion para el el video 2 ##
 
 ---
 
@@ -75,7 +75,7 @@ Objetivos Específicos:
 
 # 6.--Organización en GitHub(1,5 min)--
 
-#La organización del trabajo la gestionamos completamente a través de GitHub.
+La organización del trabajo la gestionamos completamente a través de GitHub.
 
 La distribución de las tareas fueron las siguientes:
 
