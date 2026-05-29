@@ -8,7 +8,8 @@ int main(){
         std::cout<<"Seleccione una opcion\n";
         std::cout<<"1-Jugar\n";
         std::cout<<"2-Intrucciones\n";
-        std::cout<<"3-Salir del juego\n";
+        std::cout<<"3-Modo libre\n";
+        std::cout<<"4-Salir del juego\n";
         std::cin>>eleccion;
         switch(eleccion){
                 case '1':
@@ -27,6 +28,11 @@ int main(){
                 break;
                 case '3':
                 system("clear");
+                std::cout<<"Entrando a modo libre\n";
+                modolibre();
+                break;
+                case '4':
+                system("clear");
                 std::cout<<"Saliendo del juego...\n";
                 break;
                 default:
@@ -34,18 +40,6 @@ int main(){
                 std::cout<<"Opcion invalida\n";
                 break;
             }
-    }while(eleccion != '3');
+    }while(eleccion != '4');
     return 0;
 }
-
-/*int main() {
-    ResolverProblemas p1(an1, v1, 0, 9.81);
-    float p_t = p1.calcular_tiempo(); // primero se calcula el tiempo y en base a eso lo demas se resuelve
-
-    ResolverProblemas p2(an1, v1, p_t, 9.81);
-    float pdos = p2.calcular_alturamax(); //probamos esta funcion solo en modo de prueba
-
-    std::cout << GenerarProblema() << "\n";
-    std::cout << pdos << " es la altura máxima\n";
-  return 0; 
-}*/

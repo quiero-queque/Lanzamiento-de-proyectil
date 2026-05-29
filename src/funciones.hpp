@@ -5,8 +5,6 @@
 #include <random> // para generar los valores aleatorios a distintos problemas
 #include <vector>
 #include <string>
-
-
 #define PI 3.1416
 #define TIERRA 9.81
 #define VENUS 8.87
@@ -26,26 +24,25 @@ float calcular_alturamax(float velocidad, float angulo, float g);
 void instrucciones();
 void iniciar_juego(int o);
 std::string GenerarProblema(int n);
+void modolibre();
+void limpiarbuffer(const char *instruccion);
 
 class jugador{
     private:
     std::string nombre;
     int puntaje;
-
     public:
     jugador(std::string nombre){
         this->nombre = nombre;
         this->puntaje = 0;
     }
-
     int subir_puntaje(){
         puntaje+=1;
         return puntaje;
     }
     void Mostrar_nombre(){
         std::cout<<"\n Nombre de usuario: "<<nombre;
-    }
-    
+    }   
 };
 
 class ResolverProblemas{
@@ -54,7 +51,6 @@ class ResolverProblemas{
     float velocidad;
     float t;
     float g;
-
     public:
     ResolverProblemas(float angulo, float velocidad, float t, float g){
         this->angulo = angulo;
@@ -62,7 +58,6 @@ class ResolverProblemas{
         this->t=t;
         this->g=g;
     }
-
     float calcular_radianes(){
         float radianes= (angulo*PI)/180;
         return radianes;
