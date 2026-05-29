@@ -27,23 +27,6 @@ std::string GenerarProblema(int n);
 void modolibre();
 void limpiarbuffer(const char *instruccion);
 
-class jugador{
-    private:
-    std::string nombre;
-    int puntaje;
-    public:
-    jugador(std::string nombre){
-        this->nombre = nombre;
-        this->puntaje = 0;
-    }
-    int subir_puntaje(){
-        puntaje+=1;
-        return puntaje;
-    }
-    void Mostrar_nombre(){
-        std::cout<<"\n Nombre de usuario: "<<nombre;
-    }   
-};
 
 class ResolverProblemas{
     private:
