@@ -16,7 +16,7 @@ Cristóbal Oyarzún(Gestor Github + Video explicativo)
 
 ---
 
-## 2.Problematica y Objetivos(1 min)
+## 2.Problematica y Objetivos(1,5 min)
 
 Se debera presentar la presentar la problematica y los objetivos para dar a entender.
 
@@ -53,28 +53,26 @@ Objetivos Específicos:
 
 ---
 
-## 4.--Diseño en C++: clases y relaciones (2 min)--
+## 4.Diseño en C++: clases y relaciones (2 min)
 
 "El programa está organizado en diferentes clases principales."
 
-
-
 ---
 
-## 5.--Pruebas Basicas(1 min)--
+## 5.Pruebas Basicas(1 min)
 
 A continuación ejecutamos algunas pruebas para validar las funcionalidades.
 
 ---
 
-## 6.--Organización en GitHub(1,5 min)--
+## 6.Organización en GitHub(1,5 min)
 
 La organización del trabajo la gestionamos completamente a través de GitHub.
 
 |La distribución de las tareas fueron las siguientes:|
 |---|
 |[Samuel Cament] encargado de migrar de C a C++ |
-|[Benjamin Vargas] |
+|[Benjamin Vargas]  |
 |[Francisco Condori] se encargo del Manejo del repositorio, control de versiones.|
 |[Cristóbal Oyarzun]	README, guión y producción del video del proyecto.|
 
@@ -84,12 +82,12 @@ La organización del trabajo la gestionamos completamente a través de GitHub.
 
 ---
 
-## 7.--Proximos pasos(20 seg)--
+## 7.Proximos pasos(20 seg)
 
 "Para el Hito 3 tenemos planificados los siguientes avances:"
 
+"Migrar la visualización de consola a una ventana gráfica usando Qt Widgets o Qt Quick (QML)"
 
-
-## 8.--Cierre(20 seg)--
+## 8.Cierre(20 seg)
 
 "Eso es todo por el Hito 2. Migramos el simulador completo a C++ con diseño orientado a objetos, aplicando encapsulamiento, composición y las herramientas estándar del lenguaje."
