@@ -18,7 +18,7 @@ Los integrantes se presentaran uno a uno diciendo su nombre y rol.
 
 ## 2.--Problematica y Objetivos(1 min)--
 
-#Se debera presentar la presentar la problematica y los objetivos para dar a entender.
+Se debera presentar la presentar la problematica y los objetivos para dar a entender.
 
 
 Problematica a resolver:
@@ -71,11 +71,12 @@ A continuación ejecutamos algunas pruebas para validar las funcionalidades.
 
 La organización del trabajo la gestionamos completamente a través de GitHub.
 
-La distribución de las tareas fueron las siguientes:
+|La distribución de las tareas fueron las siguientes:|
+|---|
+|[Samuel Cament] encargado de migrar la mayor parte de C a C++|
+|[Benjamin Vargas]|
+|[Francisco Condori] se encargo del Manejo del repositorio, control de versiones.|
 
-[Samuel Cament] 
-[Benjamin Vargas]	
-[Francisco Condori] se encargo del Manejo del repositorio, control de versiones.
 [Cristóbal Oyarzun]	README, guión y producción del video del proyecto.
 
 "El código está en la carpeta (src/) con la separación correcta entre archivos (.h) de declaraciones y (.cpp) de implementaciones, tal como lo exige el hito."
