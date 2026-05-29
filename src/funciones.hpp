@@ -3,7 +3,6 @@
 #include <stdlib.h> // para acceder a la funcion system()
 #include <cmath> // para redondear los decimales
 #include <random> // para generar los valores aleatorios a distintos problemas
-#include <vector>
 #include <string>
 #define PI 3.1416
 #define TIERRA 9.81
