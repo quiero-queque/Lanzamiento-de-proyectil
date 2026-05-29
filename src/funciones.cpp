@@ -34,7 +34,7 @@ void iniciar_juego(int o){
      // float planeta[9]= {TIERRA, LUNA, MERCURIO, MARTE, URANO, VENUS, SATURNO, NEPTUNO, JUPITER};
      // char *nombre[9]={"TIERRA", "LUNA", "MERCURIO", "MARTE", "URANO", "VENUS", "SATURNO", "NEPTUNO", "JUPITER"};
         float v1=generar_random_velocidad(1.00, 200.00); //Definimos limites de acuerdo a la logica fisica
-        float an1=generar_random_angulo(1, 89);
+        float an1=generar_random_angulo(1, 180);
         float Resultado;
         ResolverProblemas p1(an1, v1, 0, 9.81);
         float tiempo = p1.calcular_tiempo(); // primero se calcula el tiempo y en base a eso lo demas se resuelve
@@ -67,12 +67,16 @@ void instrucciones(){
         float planetas[9]= {TIERRA, VENUS, MERCURIO, MARTE, JUPITER, SATURNO, URANO, NEPTUNO, LUNA};
         int n;
         do{
-            std::cout<<"\nBienvenido al modo libre\nIngrese ángulo en decimales\n";
+            system("clear");
+            std::cout<<"Bienvenido al modo libre\nIngrese ángulo en decimales\n";
             std::cin >> angulo;
+            system("clear");
             std::cout<<"Ingrese velocidad en decimales\n";
             std::cin >> velocidad;
+            system("clear");
             std::cout << "Elige un planeta:\n1-TIERRA\n2-VENUS\n3-MERCURIO\n4-MARTE\n5-JUPITER\n6-SATURNO\n7-URANO\n8-NEPTUNO\n9-LUNA\n";
             std::cin >> n;
+            system("clear");
             ResolverProblemas p3(angulo, velocidad,0,planetas[n-1]);
             float tiempo = p3.calcular_tiempo();
             float altura_max = p3.calcular_alturamax();
@@ -81,6 +85,6 @@ void instrucciones(){
                 std::cout<<"la distancia recorrida fue de: "<< alcance_t<<"\n";
                 std::cout<<"Su altura maxima fue: "<< altura_max<<"\n";
                 std::cout<<"Quieres continuar?\n1-si\n2-no\n";
-            scanf(" %c", &condicion);
+                std::cin>>condicion;
         }while(condicion!='2');
     }
