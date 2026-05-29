@@ -91,6 +91,16 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 
 ---
 
+|    | Hito 1 - C | Hito 2 - C++ | Razon |
+|----|------------|--------------|--------|
+| Organización | Funciones y estructs | Clases con encapsulamiento  | Diseño OOP |
+| Catálogo de planetas | Array estático global | std::map<string, Planeta> | Acceso por nombre, extensible |
+| Validación de entradas | while con scanf | Excepciones std::invalid_argument | Manejo errores |
+| Salida de texto | printf / scanf | std::cout / std::cin + iomanip | Estándar C++ |
+| Separación de archivos | Un único .c | .h (declaraciones) + .cpp (implementaciones) | Modularidad |
+
+---
+
 ##  Video Explicativo Hito 1
 
 > https://www.youtube.com/watch?v=alypqZLJVk4
