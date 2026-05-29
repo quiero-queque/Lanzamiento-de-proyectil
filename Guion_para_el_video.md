@@ -2,46 +2,46 @@
 
 ---
 
-## 1.--Presentacion del equipo(30 seg)--
+## 1.Presentacion del equipo(30 seg)
 
 Los integrantes se presentaran uno a uno diciendo su nombre y rol.
 
--Samuel Cament(Desarrollador Principal)
+Samuel Cament(Desarrollador Principal)
 
--Benjamin Vargas(Desarrollador de interfaz)
+Benjamin Vargas(Desarrollador de interfaz)
 
--Francisco Condori(Gestor GitHub + Documentación)
+Francisco Condori(Gestor GitHub + Documentación)
 
--Cristóbal Oyarzún(Gestor Github + Video explicativo)
+Cristóbal Oyarzún(Gestor Github + Video explicativo)
 
 ---
 
-## 2.--Problematica y Objetivos(1 min)--
+## 2.Problematica y Objetivos(1 min)
 
 Se debera presentar la presentar la problematica y los objetivos para dar a entender.
 
 
 Problematica a resolver:
 
--Está demostrado que cada persona tiene una forma de aprender distinta los casos fisicos, por lo que se debe crear y aplicar un videojuego con distintas funciones, en donde se busca que el usuario aprenda conceptos fisicos.
+Está demostrado que cada persona tiene una forma de aprender distinta los casos fisicos, por lo que se debe crear y aplicar un videojuego con distintas funciones, en donde se busca que el usuario aprenda conceptos fisicos.
 
 Objetivo General:
 
--Desarrollar un simulador en C++ orientado a fines educativos con objetos que modele el lanzamiento de proyectiles en distintos planetas del sistema solar, calculando la trayectoria y presentando los resultados en la consola.
+Desarrollar un simulador en C++ orientado a fines educativos con objetos que modele el lanzamiento de proyectiles en distintos planetas del sistema solar, calculando la trayectoria y presentando los resultados en la consola.
 
 Objetivos Específicos:
 
--Simular el lanzamiento de un cohete o proyectil aplicando las ecuaciones de movimiento parabólico.
+"Simular el lanzamiento de un cohete o proyectil aplicando las ecuaciones de movimiento parabólico."
 
--Permitir a estudiantes experimentar cómo cambia la trayectoria de un proyectil al modificar la velocidad, el ángulo y la gravedad de distintos planetas.
+"Permitir a estudiantes experimentar cómo cambia la trayectoria de un proyectil al modificar la velocidad, el ángulo y la gravedad de distintos planetas."
 
--Permitir al usuario comparar cómo cambia el alcance, altura y tiempo de vuelo en distintos cuerpos celestes (Luna, Marte, Júpiter, etc.).
+"Permitir al usuario comparar cómo cambia el alcance, altura y tiempo de vuelo en distintos cuerpos celestes (Luna, Marte, Júpiter, etc.)."
 
--Mostrar las comparaciones a través de una tabla comparativa de todos los planetas con el mismo lanzamiento, analizando y entendiendo cómo influye la gravedad.
+"Mostrar las comparaciones a través de una tabla comparativa de todos los planetas con el mismo lanzamiento, analizando y entendiendo cómo influye la gravedad."
 
 ---
 
-## 3.--Avances desde el hito 1 (1,5 min)--
+## 3.Avances desde el hito 1 (1,5 min)
 
 "En el Hito 1 entregamos el simulador en lenguaje C. Funcionaba correctamente, pero toda la lógica estaba en funciones sueltas y structs sin encapsulamiento."
 
