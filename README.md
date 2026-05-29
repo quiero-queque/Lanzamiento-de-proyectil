@@ -91,6 +91,8 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 
 ---
 
+## Migración de C a C++
+
 |    | Hito 1 - C | Hito 2 - C++ | Razon |
 |----|------------|--------------|--------|
 | Organización | Funciones y estructs | Clases con encapsulamiento  | Diseño OOP |
