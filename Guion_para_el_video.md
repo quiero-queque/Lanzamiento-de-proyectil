@@ -56,7 +56,13 @@ Objetivos Específicos:
 
 4.--Diseño en C++: clases y relaciones (2 min)--
 
-"El programa está organizado en nose clases principales."
+"El programa está organizado en diferentes clases principales."
+
+"La clase Planeta representa un cuerpo con su nombre y gravedad. Contiene un método estático que entrega el catálogo completo de los planetas."
+
+"La clase Proyectil donde se encapsula los parámetros de lanzamiento: el ángulo y la velocidad inicial. Calcula las componentes horizontal y vertical de la velocidad."
+
+"La clase Trayectoria siendo la más importante del simulador. Usa una composición que contiene un Proyectil y un Planeta. A partir de ellos, calcula todos los puntos de la parábola y entrega la altura máxima y el tiempo de vuelo. También genera el gráfico ASCII."
 
 
 
@@ -64,7 +70,7 @@ Objetivos Específicos:
 
 #A continuación ejecutamos algunas pruebas para validar las funcionalidades.
 
-no se todavia espero al samuel rondon
+
 
 6.--Organización en GitHub(1,5 min)--
 
