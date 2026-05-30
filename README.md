@@ -104,7 +104,6 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 ---
 
 
-
 ---
 
 ##  Video Explicativo Hito 1
