@@ -3,7 +3,6 @@
 int main(){
     char eleccion;
     do{
-        system("clear");
         std::cout<<"Bienvenido a lanzamiento de proyectil con gravedad variable\n";
         std::cout<<"Seleccione una opcion\n";
         std::cout<<"1-Jugar\n";
@@ -13,7 +12,6 @@ int main(){
         std::cin>>eleccion;
         switch(eleccion){
                 case '1':
-                system("clear");
                 iniciar_juego();
                 break;
                 case '2':
@@ -21,15 +19,12 @@ int main(){
                 modolibre();
                 break;
                 case '3':
-                system("clear");
                 instrucciones();
                 break;
                 case '4':
-                system("clear");
                 std::cout<<"Saliendo del juego...\n";
                 break;
                 default:
-                system("clear");
                 std::cout<<"Opcion invalida\n";
                 break;
             }
