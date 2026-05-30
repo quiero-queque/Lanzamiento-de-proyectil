@@ -156,6 +156,7 @@ Solicita un número flotante y repite si el formato es inválido, limpiando el b
 - ./juego
 
 ---
+
 ##  Distribución de Tareas
 
 ### [Samuel Cament] — Desarrollador principal
