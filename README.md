@@ -108,7 +108,7 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 - Se creo la función `instrucciones()` para mantener el main limpio.
 - El catálogo de planetas migró de constantes globales (TIERRA, LUNA, etc.) 
   a un array de objetos de clase PLANETAS.
-- Se creo la funcion 'limpiarbuffer' para arreglar un bug de validacion de entrada
+- Se creo la funcion `limpiarbuffer` para arreglar un bug de validacion de entrada
 - Se mantiene el array global en lugar de std::map
   porque la funcionalidad es equivalente para el tamaño actual del catálogo.
   Se migrará en el Hito 3.
