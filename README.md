@@ -147,8 +147,7 @@ Solicita un número flotante y repite si el formato es inválido, limpiando el b
 
 ##  Video Explicativo Hito 2
 
-> https://www.youtube.com/watch?v=alypqZLJVk4
-
+> https://youtu.be/ID5VpmpSwrE
 ---
 
 ## Compilacion En C++
