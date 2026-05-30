@@ -133,7 +133,7 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 - [x] Diseñar las estructuras `Planeta` y `Resultado`
 - [x] Verificar que las fórmulas físicas sean correctas
 - [x] Arreglar bugs
-- [ ] Migrar lógica de física al Hito 2 en C++
+- [x] Migrar lógica de física al Hito 2 en C++
 
 ### [Benjamin Vargas] — Desarrollador de interfaz
 - [x] Implementar el menú interactivo con validación de entrada
