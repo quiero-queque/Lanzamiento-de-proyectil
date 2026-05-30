@@ -73,7 +73,7 @@ Solicita un número flotante y repite si el formato es inválido, limpiando el b
 | Alcance máximo Tierra | v=15, θ=30, g=9.81 | 19.86 m | ✅ Correcto |
 | Tiempo de vuelo Luna | v=10, θ=45, g=1.62 | 8.73 s | ✅ Correcto |
 | Altura máxima Mercurio | v=20, θ=60, g=3.70 | 40.54 m | ✅ Correcto |
-| Entrada inválida (texto) | "abc" | Solicita nuevo valor | ✅ Correcto |
+| Entrada inválida (texto) | "a" | Solicita nuevo valor | ✅ Correcto |
 | Ángulo fuera de rango | 200° | Mensaje de error | ✅ Correcto |
 | Planeta fuera de rango | opción 10 | "Planeta no válido" | ✅ Correcto |
 
