@@ -99,7 +99,7 @@ void iniciar_juego(){
             }
         }else if(i== 8){
             resultado=limpiarbuffer("Bitácora Estelar - Nivel 8: Neptuno. Tormentas supersónicas. Un misil se lanza a 90 m/s con un angulo de inclinacion de 70º. Calcule la ALTURA del misil exactamente 2 segundos ANTES de que alcance su tiempo total de vuelo:\n");
-            if (fabs(resultado - calcular_altura(90, 70, calcular_tiempo(90, 70, planeta[i-1])-2, planeta[i-1])) < 0.08){
+            if (fabs(resultado - calcular_altura(90, 70, calcular_tiempo(90, 70, planeta[i-1])-2, planeta[i-1])) < 0.05){
                 printf("Felicidades!!\n");
             } else{
                 printf("Te has equivocado, intentalo de nuevo\n");
