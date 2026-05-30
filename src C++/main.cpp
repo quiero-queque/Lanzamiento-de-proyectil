@@ -14,20 +14,13 @@ int main(){
         switch(eleccion){
                 case '1':
                 system("clear");
-                std::cout<<"Iniciando juego...\n";
-                system("clear");
-                std::cout<<"Â¿Cuantas preguntas quieres hacer?\n";
-                int Preguntas;
-                std::cin>>Preguntas;
-                system("clear");
-                iniciar_juego(Preguntas);
+                iniciar_juego();
                 break;
                 case '2':
                 std::cout<<"Entrando a modo libre\n";
                 modolibre();
                 break;
                 case '3':
-                system("clear");
                 system("clear");
                 instrucciones();
                 break;

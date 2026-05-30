@@ -1,26 +1,27 @@
-#include "funciones.h"
+#include "funciones.hpp"
+const float PI = 3.1416;
 //funciones matematicas
-float calcular_radianes(float angulo){
+float calcular_radianes(float angulo){ //los angulos se reciben en grados y se cambian a radianes
     float radianes= (angulo*PI)/180;
     return radianes;
 }
-float calcular_altura(float velocidad, float angulo, float t, float g){
+float calcular_altura(float velocidad, float angulo, float t, float g){ //calcula la altura en un punto t
     float altura= velocidad* t* sin(calcular_radianes(angulo))- (g*t*t)/2;
     return altura;
 }
-float calcular_alturamax(float velocidad, float angulo, float g){
+float calcular_alturamax(float velocidad, float angulo, float g){ //calcula la altura maxima
     float alturamax= (velocidad*velocidad)*(sin(calcular_radianes(angulo))*sin(calcular_radianes(angulo))/(2*g));
     return alturamax;
 }
-float calcular_alcance(float velocidad, float angulo, float t){
+float calcular_alcance(float velocidad, float angulo, float t){ //calcula alcance usando el tiempo
     float alcance = velocidad*cos(calcular_radianes(angulo))*t;
     return alcance;
 }
-float calcular_tiempo(float velocidad, float angulo, float g){
+float calcular_tiempo(float velocidad, float angulo, float g){ //calcula el tiempo
     float tiempo= 2*velocidad*sin(calcular_radianes(angulo))/(g);
     return tiempo;
 }
-float calcular_alcancemax(float velocidad, float angulo, float g){
+float calcular_alcancemax(float velocidad, float angulo, float g){ //calcula el alcance sin el tiempo
     float alcancemax= (velocidad * velocidad * sin(2 * calcular_radianes(angulo))) / g;
     return alcancemax;
 }
@@ -67,7 +68,7 @@ void instrucciones(){
     std::string eleccion;
     std::cin >> eleccion;
 }
-void iniciar_juego(){
+void iniciar_juego(){ //inicia el juego
     for(int i = 0; i < 9; i++){
         float g = lista_planeta[i].getgravedad();
         std::cout << "Nivel " << i+1 << "\n";
@@ -98,14 +99,7 @@ void iniciar_juego(){
         }else if(i == 7){
             resultado = limpiarbuffer("Bitacora Estelar - Nivel 8: Neptuno. Tormentas supersonicas. Un misil se lanza a 90 m/s con angulo 70. Calcule la ALTURA exactamente 2 segundos ANTES del tiempo total de vuelo:\n");
             esperado = calcular_altura(90, 70, calcular_tiempo(90, 70, g)-2, g);
-            if(fabs(resultado - esperado) < 0.08){
-                std::cout << "Felicidades!!\n";
-            }else{
-                std::cout << "Te has equivocado, intentalo de nuevo\n";
-                i--;
-            }
-            continue;
-        }else if(i==9){
+        }else if(i==8){
             resultado = limpiarbuffer("Bitacora Estelar - Nivel 9: Jupiter. El coloso gravitatorio. Un modulo se lanza a 150 m/s con angulo 80. Calcule el ALCANCE HORIZONTAL en el momento de su ALTURA MAXIMA:\n");
             esperado = calcular_alcance(150, 80, calcular_tiempo(150, 80, g)/2.0);
         }
@@ -117,7 +111,7 @@ void iniciar_juego(){
         }
     }
 }
-void modolibre(){
+void modolibre(){ //abre un modo donde se puede probar distintas gravedades y movimientos parabolicos
     char condicion;
     do{
         float angulo = limpiarbuffer("Bienvenido al modo libre, ingrese angulo en decimales:\n");
