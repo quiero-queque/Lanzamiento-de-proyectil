@@ -51,14 +51,20 @@ Desarrollar un simulador en C++ orientado a fines educativos con objetos que mod
 ---
 ## Funcionalidades implementadas
 
-### Selección de planeta:
+### Modo Juego (`iniciar_juego`):
 
-- El usuario elige entre los cuerpos celestes del sistema solar (más la Luna), cada uno con su gravedad en m/s².
+El jugador avanza por 9 niveles, uno por planeta. Cada nivel presenta un problema físico
+con contexto narrativo. El jugador debe ingresar el resultado correcto (tolerancia ±0.05).
+Si se equivoca, el nivel se repite.
 
-### Configuración del lanzamiento:
+### Modo Libre (`modolibre`):
 
-- Se ingresan el ángulo y la velocidad inicial. Ambos valores debe ser aceptados con manejo de excepciones; si no son aceptados, el programa los solicita nuevamente.
+El usuario ingresa ángulo, velocidad y elige un planeta. El programa muestra el tiempo
+de vuelo, alcance máximo y altura máxima.
 
+### Validación de Entrada (`limpiarbuffer`):
+
+Solicita un número flotante y repite si el formato es inválido, limpiando el buffer.
 ---
 
 ## Física Aplicada
