@@ -53,11 +53,11 @@ Desarrollar un simulador en C++ orientado a fines educativos con objetos que mod
 
 Selección de planeta:
 
--El usuario elige entre los cuerpos celestes del sistema solar (más la Luna), cada uno con su gravedad en m/s².
+- El usuario elige entre los cuerpos celestes del sistema solar (más la Luna), cada uno con su gravedad en m/s².
 
 Configuración del lanzamiento:
 
--Se ingresan el ángulo y la velocidad inicial. Ambos valores debe ser aceptados con manejo de excepciones; si no son aceptados, el programa los solicita nuevamente.
+- Se ingresan el ángulo y la velocidad inicial. Ambos valores debe ser aceptados con manejo de excepciones; si no son aceptados, el programa los solicita nuevamente.
 
 ---
 
@@ -122,8 +122,8 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 - ./simulador
 
 ## Compilacion En C++
-- gcc -o simulador main.c funciones.c -lm
-- ./simulador
+- g++ main.cpp funciones.cpp -o juego -lm
+- ./juego
 
 ---
 ##  Distribución de Tareas
