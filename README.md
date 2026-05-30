@@ -51,11 +51,11 @@ Desarrollar un simulador en C++ orientado a fines educativos con objetos que mod
 ---
 ## Funcionalidades implementadas
 
-Selección de planeta:
+### Selección de planeta:
 
 - El usuario elige entre los cuerpos celestes del sistema solar (más la Luna), cada uno con su gravedad en m/s².
 
-Configuración del lanzamiento:
+### Configuración del lanzamiento:
 
 - Se ingresan el ángulo y la velocidad inicial. Ambos valores debe ser aceptados con manejo de excepciones; si no son aceptados, el programa los solicita nuevamente.
 
