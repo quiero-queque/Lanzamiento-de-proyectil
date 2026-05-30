@@ -86,6 +86,12 @@ T vuelo  =  2 · v₀ · sen(θ) / g
 
 ---
 
+## Compilacion En C
+- gcc -o simulador main.c funciones.c -lm
+- ./simulador
+
+--- 
+
 ## Migración de C a C++
 
 |    | Hito 1 - C | Hito 2 - C++ | Razon |
@@ -144,10 +150,6 @@ Solicita un número flotante y repite si el formato es inválido, limpiando el b
 > https://www.youtube.com/watch?v=alypqZLJVk4
 
 ---
-
-## Compilacion En C
-- gcc -o simulador main.c funciones.c -lm
-- ./simulador
 
 ## Compilacion En C++
 - g++ main.cpp funciones.cpp -o juego -lm
