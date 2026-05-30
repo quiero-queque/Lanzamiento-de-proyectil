@@ -156,6 +156,11 @@ Solicita un número flotante y repite si el formato es inválido, limpiando el b
 - ./juego
 
 ---
+## Hito 3
+
+- Crearemos interfaz grafica en el juego
+
+---
 
 ##  Distribución de Tareas
 
