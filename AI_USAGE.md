@@ -14,6 +14,10 @@
 - "Quiero que me expliques que librerias necesito y la logica aplicada para liberar el buffer" Claude
 - "Ve este arfchivo y pon todos los acentos bien" Claude
 
+**Hito 3**
+- “Como puedo calcular y guardar en un vector los puntos de una trayectoria parabólica usando Qpointf en Qt.”
+- "Que funciones puedo remover si quiero que mi archivo solo tenga cálculos y datos, dejando la lógica de juego en otro lado”
+
 **Observaciones**
 -La IA identificó rápidamente errores de sintaxis que habrían sido difíciles de encontrar manualmente, especialmente en el codigo funciones.c.
 
