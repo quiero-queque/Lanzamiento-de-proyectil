@@ -28,8 +28,8 @@ Desarrollar un simulador en C++ orientado a fines educativos con objetos que mod
 | Hito | Tecnología | Estado | Descripción |
 |------|-----------|--------|-------------|
 | **Hito 1** | C |  Terminado | Prototipo básico en consola con física, menú y exportación |
-| **Hito 2** | C++ + Gráficos |  En proceso | Reorganización en clases + visualización gráfica |
-| **Hito 3** | C++ + Interfaz |  Pendiente | Interfaz desacoplada de la lógica + página web |
+| **Hito 2** | C++ + Gráficos |  Terminado | Reorganización en clases + visualización gráfica |
+| **Hito 3** | C++ + Interfaz |  Terminado | Interfaz desacoplada de la lógica |
 
 ---
 
