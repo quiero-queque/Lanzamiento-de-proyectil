@@ -156,6 +156,9 @@ Solicita un número flotante y repite si el formato es inválido, limpiando el b
 ---
 ## Cambios respecto al hito 2
 - Implementacion de libreria Qt6 para creación de interfaz gráfica.
+- Inicialización de clase: el constructor de PLANETAS ahora usa lista de inicialización (: nombre(nom), gravedad(grav)) en vez de asignaciones dentro del cuerpo.
+- Eliminación de funciones: se quitaron instrucciones, `iniciar_juego`, `modolibre` y `limpiarbuffer`, simplificando el archivo a cálculos y datos.
+- Nueva función trayectoria: se agregó calcular_trayectoria, que devuelve un `std::vector<QPointF>` con los puntos de la parábola
 ---
 ## Video explicativo Hito 3
 
