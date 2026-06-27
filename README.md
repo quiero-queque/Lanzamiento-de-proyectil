@@ -142,7 +142,6 @@ Solicita un número flotante y repite si el formato es inválido, limpiando el b
 - Se mantiene el array global en lugar de std::map
   porque la funcionalidad es equivalente para el tamaño actual del catálogo.
   Se migrará en el Hito 3.
-
 ---
 
 ##  Video Explicativo Hito 2
@@ -154,6 +153,9 @@ Solicita un número flotante y repite si el formato es inválido, limpiando el b
 - g++ main.cpp funciones.cpp -o juego -lm
 - ./juego
 
+---
+## Cambios respecto al hito 2
+- Implementacion de libreria Qt6 para creación de interfaz gráfica.
 ---
 ## Video explicativo Hito 3
 
@@ -174,15 +176,15 @@ Solicita un número flotante y repite si el formato es inválido, limpiando el b
 - [x] Implementar el menú interactivo con validación de entrada
 - [x] Diseñar la pantalla de bienvenida con instrucciones
 - [x] Crear el modo libre
-- [ ] Diseñar la tabla de posiciones( Hito 3)
+- [x] Diseñar la tabla de posiciones( Hito 3)
 
 
 ### [Francisco Condori] — Gestor GitHub + Documentación
 - [x] Crear y configurar el repositorio en GitHub
 - [x] Actualizar el `.gitignore` del proyecto
 - [x] Hacer commits organizados con mensajes descriptivos
-- [ ] Organizar las carpetas `hito1/`, `hito2/`, `hito3/`
-- [ ] Documentar los cambios entre versiones
+- [x] Organizar las carpetas `hito1/`, `hito2/`, `hito3/`
+- [x] Documentar los cambios entre versiones
 
 ### [Cristobal Oyarzun] — Investigación + Video
 - [x] Investigar las ecuaciones del movimiento parabólico
@@ -190,7 +192,7 @@ Solicita un número flotante y repite si el formato es inválido, limpiando el b
 - [x] Redactar el marco teórico del proyecto
 - [x] Mantener el README actualizado en el hito
 - [x] Escribir el guión del video explicativo 2
-- [ ] Grabar y editar el video demostrativo
-- [ ] Subir el video y agregar el enlace al README
+- [x] Grabar y editar el video demostrativo
+- [x] Subir el video y agregar el enlace al README
 
 ---
